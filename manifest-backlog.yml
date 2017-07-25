@@ -7,7 +7,7 @@ applications:
   env:
     TRUST_CERTS: app.sys.longs.pal.pivotal.io,uaa.sys.longs.pal.pivotal.io
     GRANT_TYPE: client_credentials
- services:
+  services:
   - tracker-backlog-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
